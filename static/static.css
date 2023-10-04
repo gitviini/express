@@ -183,6 +183,9 @@ form p a:hover{
 	form input{
 		width: 100%;
 	}
+	form p{
+		margin: 30px 3%;
+	}
 }
 @media screen and (max-width:650px){
 	section{
@@ -213,5 +216,8 @@ form p a:hover{
 	}
 	form button{
 		width: 100px;
+	}
+	form p{
+		float: right
 	}
 }
