@@ -3,12 +3,20 @@
 	margin: 0;
 	scroll-behavior: smooth;
 }
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
 header{
 	position: fixed;
 	width: 100%;
 	height: 65px;
-	
+	background-color: #fff;
+	z-index: 1;
 }
+
 header li{
 	position: relative;
 	float: left;
@@ -49,7 +57,7 @@ header li{
 }
 
 main{
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: calc(100% - 60px);
 	top: 65px;
@@ -136,10 +144,11 @@ form p a:hover{
 	}
 	img{
 		position: relative;
-		top: 10%;
+		top: 5%;
 		display: block;
 		width: 100%;
 		max-width: 600px;
+		height: 100%;
 		left: -50%;
 		opacity: 0.7;
 		max-height: 550px;
@@ -172,6 +181,7 @@ form p a:hover{
 		float: left;
 		width: 100%;
 		min-width: 350px;
+		height: 100%;
 		object-fit: cover;
 		opacity: 0.7;
 	}
@@ -202,6 +212,7 @@ form p a:hover{
 		width: 90%;
 		min-width: 500px;
 		max-width: 600px;
+		height: 100%;
 		object-fit: cover;
 		opacity: 0.25;
 	}	
