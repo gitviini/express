@@ -5,7 +5,7 @@ const favicon = require('serve-favicon')
 const path = require('path') 
 
 //database 
-const {create_table, insertuser, selectuser, updateuser, deleteuser} = require('./database.js')
+//const {create_table, insertuser, selectuser, updateuser, deleteuser} = require('./database.js')
 
 const PORT = 5000
 
